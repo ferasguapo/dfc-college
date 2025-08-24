@@ -1,10 +1,10 @@
-import './globals.css'
+import '../styles/globals.css'
 import { ReactNode } from 'react'
 import Navbar from '../components/Navbar'
 
 export const metadata = {
   title: 'Decentralized Free College',
-  description: 'Get your degree for free, powered by ads.'
+  description: 'Get your degree for free, powered by ads.',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
